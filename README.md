@@ -43,22 +43,22 @@ Go to the top menu and select View > Terminal to open the integrated terminal wi
 ## Check Node.js and npm
 
 To make sure Node.js and npm are installed, run the following commands and ensure they display version numbers
-RUN IN CMD NOT IN POWERSHELL
-node -v
-npm -v
+- RUN IN CMD NOT IN POWERSHELL
+- node -v
+- npm -v
 
 ## Install Angular CLI
 Install the Angular CLI globally using npm. Run the following command
-RUN IN CMD NOT IN POWERSHELL
-npm install -g @angular/cli
-npm i @angular/router
+- RUN IN CMD NOT IN POWERSHELL
+- npm install -g @angular/cli
+- npm i @angular/router
 
 ## Serve the Angular App
 Once you're inside your project directory, use the following command to serve your Angular app locally
-RUN IN CMD NOT IN POWERSHELL
-ng serve
+- RUN IN CMD NOT IN POWERSHELL
+- ng serve
 
-If is there any error try to resolve it 
+`If is there any error try to resolve it` 
 
 ### Contact
 
